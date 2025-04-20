@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(22, 20, 20);
+    height: 4455px;
+    width: 100%;
+    flex-wrap: wrap;
+   
+        overflow-x: hidden;
+    
+    
+}
+.main{
+    background-image: url(assets/images/bg1.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 670px;
+    position: relative;
+background-color: black;
+flex-wrap: wrap;
+}
+.main .box{
+    height: 670px;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    flex-wrap: wrap;
+}
+nav{
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    flex-wrap: wrap;
+    
+}
+nav img{
+   color:  red;
+    width: 152px;
+    position: relative;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+    flex-wrap: wrap;
+}
+.hero{
+    @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@');
+   height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-style:normal;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.hero  :first-child{
+    font-size: 48px;
+    font-weight: 1000;
+    flex-wrap: wrap;
+}
+.hero :nth-child(2){
+    font-size: 35px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+.hero :nth-child(3)
+{
+    font-size: 25px;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+.boxt{
+    height: 620px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    margin-left: 0%;
+    color: white;
+    flex-wrap: wrap;
+    
+    
+}
+.boxt :first-child{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+    top: 240px;
+    left: 200px;
+    flex-wrap: wrap;
+}
+.boxt :nth-child(2){
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative;
+    top: 260px;
+    left: 200px;
+    flex-wrap: wrap;
+}
+.boxt :nth-child(3)
+{
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    top: 270px;
+    left: 200px;
+    flex-wrap: wrap;
+}
+.boxt :nth-child(4)
+{
+   
+  position: relative;
+  left: 645px;
+  bottom: 300px;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+.tv1{  
+    position: relative;
+    left: 929px;
+    bottom: 450px;
+    flex-wrap: wrap;
+    
+
+}
+.boxth{
+    height: 570px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    margin-left: 0%;
+    color: white;
+    flex-wrap: wrap;
+}
+.tv2{
+    position: relative;
+    left: 150px;
+    flex-wrap: wrap;
+
+}
+.boxth :nth-child(2)
+{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+   bottom: 350px;
+   left: 800px;
+   flex-wrap: wrap;
+   
+}
+.boxth :nth-child(3)
+{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+   bottom: 350px;
+   left: 785px;
+   padding:15px;
+   flex-wrap: wrap;
+}
+.boxth :nth-child(4)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative;
+    bottom: 350px;
+    left: 780px;
+    padding:20px;
+    flex-wrap: wrap;
+   
+}
+.boxth :nth-child(5)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative;
+    bottom: 370px;
+    left: 800px;  
+    flex-wrap: wrap;
+}
+.boxf{
+    height: 570px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    margin-left: 0%;
+    color: white;
+    flex-wrap: wrap;
+}
+.boxf :nth-child(1)
+{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+  top: 160px;
+  left: 170px;
+  flex-wrap: wrap;
+}
+.boxf :nth-child(2)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative;
+  top: 160px;
+  left: 150px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+.boxf :nth-child(3)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative;
+  top: 140px;
+  left: 170px;
+  flex-wrap: wrap;
+}
+.tv3{
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+  
+    z-index:10;
+    flex-wrap: wrap;
+}
+.tv33{
+    position: relative;
+    left: 890px;
+    bottom: 470px;
+    flex-wrap: wrap;
+   
+}
+.boxfe{
+    height: 570px;
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    position: relative;
+   bottom: 229px;
+   color: white;
+   flex-wrap: wrap;
+}
+.boxfe :nth-child(2)
+{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+ left: 850px;
+ bottom: 320px;
+ flex-wrap: wrap;
+}
+.boxfe :nth-child(3)
+{
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+ left: 830px;
+ bottom: 320px;
+ padding: 20px;
+ flex-wrap: wrap;
+}
+.boxfe :nth-child(4)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative; 
+    left: 830px;
+ bottom: 320px;
+ padding: 20px;
+ flex-wrap: wrap;
+}
+.boxfe :nth-child(5)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative; 
+    left: 850px;
+ bottom: 340px;
+ flex-wrap: wrap;
+ 
+}
+.boxfe :nth-child(6)
+{
+    font-size: 30px;
+    font-weight: 400; 
+    position: relative; 
+    left: 850px;
+ bottom: 340px;
+ flex-wrap: wrap;
+ 
+}
+
+.tv4{
+    position: relative;
+    left: 180px;
+    top: 50px;
+    flex-wrap: wrap;
+}
+.containerfaq{
+    height: 990px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    margin-left: 0%;
+    color: white;
+    position: relative;
+    bottom: 229px;
+    flex-wrap: wrap;
+}
+.conh{
+    color: white;
+    font-size: 48px;
+    font-weight: 1000; 
+    position: relative;
+    top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.boxf1{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  
+}
+.boxf2{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.boxf3{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.boxf4{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.boxf5{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.boxf55{
+    height: 80px;
+    width: 80vw;
+    background-color: rgb(70, 72, 72);
+    position: relative;
+   top: 10px;
+  left: 120px;
+  margin: 30px;
+  font-size: 40px;
+  flex-wrap: wrap;
+}
+.boxf6{
+    color: white;
+    font-size: 30px;
+    font-weight: 1000; 
+    position: relative;
+    top: 20px;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+    
+    .boxf7 {
+        width: 900px; /* Adjust this value to control the width of the container */
+        padding: 20px; /* Optional: Add padding around the input */
+      position: relative;
+      justify-content: center;
+      left: 285px;
+      color: white;
+      flex-wrap: wrap;
+      }
+      
+      input[type="text"] {
+        width: 100%; /* Adjust this value to control the width of the input */
+        height: 60px; /* Adjust this value to control the height of the input */
+        font-size: 16px; /* Increase font size for better readability */
+        padding: 10px; /* Add padding inside the input for better spacing */
+        box-sizing: border-box; /* Ensure padding does not affect the overall width */
+        background-color: rgb(62, 61, 61);
+        color: white;
+        position: relative;
+        top: 20px;
+        flex-wrap: wrap;
+      }
+      .boxf8{
+        height: 20px;
+        width: 100px;
+      
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: red;
+        position: relative;
+        left: 690px;
+        top: 20px;
+        size: 50px;
+        flex-wrap: wrap;
+        
+      }
+.boxf8 button:hover{
+    background-color: darkred;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+.footercontainer{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    margin: 10px;
+    margin-left: 0%;
+    color: white;
+    position: relative;
+    bottom: 229px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cont1{
+    display: flex;
+    position: relative;
+    left: 150px;
+    color: white;
+    
+    font-size: large;
+    font-weight: 200;
+    top: 20px;
+    flex-wrap: wrap;
+}
+.cont11{
+    position: relative;
+    right: 2px;
+    top: 100px;
+    display: flex;
+ 
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.cont111{
+    margin: 15px;
+    position: relative;
+   right: 115px;
+   color: white;
+   flex-wrap: wrap;
+}
+.cont112{
+    margin: 15px;
+    position: relative;
+   right: 115px;
+   color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}.cont113{
+    margin: 15px;
+    position: relative;
+   right: 115px;
+   flex-wrap: wrap;
+}
+.cont114{
+    margin: 15px;
+    position: relative;
+   right: 115px;
+   flex-wrap: wrap;
+}
+.cont22{
+    position: relative;
+    right: 6px;
+   
+    display: flex;
+ 
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.cont221{
+    margin: 15px;
+    position: relative;
+   right: 5px;
+   flex-wrap: wrap;
+}
+.cont222{
+    margin: 15px;
+    position: relative;
+   right: 5px;
+   flex-wrap: wrap;
+}
+.cont223{
+    margin: 15px;
+    position: relative;
+   right: 5px;
+   flex-wrap: wrap;
+}
+.cont224{
+    margin: 15px;
+    position: relative;
+   right: 5px;
+   flex-wrap: wrap;
+}
+.cont33{
+    position: relative;
+    right: 8px;
+   
+    display: flex;
+ 
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+.cont331{
+    margin: 15px;
+    position: relative;
+   left: 90px;
+   flex-wrap: wrap;
+}
+.cont332{
+    margin: 15px;
+    position: relative;
+   left: 90px;
+   flex-wrap: wrap;
+}
+.cont333{
+    margin: 15px;
+    position: relative;
+   left: 90px;
+   flex-wrap: wrap;
+}
+.cont334{
+    margin: 15px;
+    position: relative;
+   left: 90px;
+   flex-wrap: wrap;
+}
+.cont44{
+    position: relative;
+    right: 8px;
+   
+    display: flex;
+ 
+    color: white;
+    text-decoration: none;
+    flex-wrap: wrap;
+  
+}
+.cont441{
+    margin: 15px;
+    position: relative;
+   left: 180px;
+   flex-wrap: wrap;
+   
+}
+.cont442{
+    margin: 15px;
+    position: relative;
+   left: 180px;
+   flex-wrap: wrap;
+}
+.cont443{
+    margin: 15px;
+    position: relative;
+   left: 180px;
+   flex-wrap: wrap;
+}
+.cont444{
+    margin: 15px;
+    position: relative;
+   left: 180px;
+   flex-wrap: wrap;
+}
+.net{
+    color: white;
+    position:relative;
+    top: 250px;
+   right: 690px;
+   font-weight: 300;
+   flex-wrap: wrap;
+}
